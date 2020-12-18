@@ -24,4 +24,10 @@ Moreover, you can also add Redirect URIs by going to Edit Settings as shown belo
 
 Now, to get the username of your Spotify account, click here: https://www.spotify.com/us/account/overview/
 
-After this, click on Profile --> Account
+After this, click on Profile --> Account as shown below.
+
+![](ScreenshotsSpotify/ProfileAccount.png) 
+
+After this you will be redirected to the Account overview and as shown below, you can get your username. 
+
+![](ScreenshotsSpotify/AccountOverview.png) 
