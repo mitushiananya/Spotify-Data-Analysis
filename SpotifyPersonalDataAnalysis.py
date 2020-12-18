@@ -9,10 +9,10 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 # AUTHORIZATION FLOW
 # Declare the credentials
-client_id = '2e9153e6b1474579a5c6bb199ca19ee0'
-client_secret = '84a242b650c044cb92939d47a76ca1f6'
+client_id = 'Enter your client ID'
+client_secret = 'Enter your client secret'
 redirect_uri='http://localhost:7777/callback'
-username = '31g33c66vh7ofh5zkyfuvynjhaku'
+username = 'Enter your username'
 
 # Authorization flow
 scope = 'user-top-read'
@@ -160,7 +160,7 @@ def fetch_playlist_tracks(sp, username, playlist_id):
 
 
 print("Playlist Tracks: \n")      # After Username add the Playlist_id of any playlist of your choice (that we saw from the previous table)
-print(fetch_playlist_tracks(sp, username, '6f4JYFfu5A9UiyS9ReXsON'))
+print(fetch_playlist_tracks(sp, username, 'Enter the playlist_id')) 
 
 # Extract songs' audio characteristics/features
 def fetch_audio_features(sp, username, playlist_id):
@@ -192,7 +192,7 @@ def fetch_audio_features(sp, username, playlist_id):
     return df_playlist_audio_features
 
 
-df1 = fetch_audio_features(sp, username, '6f4JYFfu5A9UiyS9ReXsON')
+df1 = fetch_audio_features(sp, username, 'Enter the playlist_id')
 print("\n Three songs with their corresponding features: \n")
 print(df1.head(3))
 
@@ -240,7 +240,7 @@ def fetch_audio_features(sp, username, playlist_id):
     return df_playlist_audio_features
 
 
-df2 = fetch_audio_features(sp, username, '6f4JYFfu5A9UiyS9ReXsON')
+df2 = fetch_audio_features(sp, username, 'Enter playlist_id')
 print("\n Selected Audio Features: \n")
 print(df2.head(3))
 
@@ -249,10 +249,10 @@ playlists = fetch_playlists(sp,username)
 playlists = playlists[:4].copy()
 print("\n Self-made Playlist: \n", playlists)
 
-df_onrepeat = fetch_audio_features(sp, username, '6dKsBC4jz82NpjkzZTEEv9')
-df_jacques = fetch_audio_features(sp, username, '6H6XQ5pcHiGT0bDGpCjcfw')
-df_kirk = fetch_audio_features(sp, username, '7iVpdZkMzhOA6sGzeSK3XZ')
-df_onika = fetch_audio_features(sp, username, '6f4JYFfu5A9UiyS9ReXsON')
+df_onrepeat = fetch_audio_features(sp, username, 'Enter playlist_id')
+df_jacques = fetch_audio_features(sp, username, 'Enter playlist_id')
+df_kirk = fetch_audio_features(sp, username, 'Enter playlist_id')
+df_onika = fetch_audio_features(sp, username, 'Enter playlist_id')
 
 print(df_kirk.head().iloc[:, 1:])
 
