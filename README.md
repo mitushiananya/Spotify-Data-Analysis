@@ -18,7 +18,8 @@ Fill in the App name and the App description then click on Create. After this yo
 
 And there you go! Easily you can get the client id and client secret id! 
 
-Moreover, you can also add Redirect URIs by going to Edit Settings as shown below. #### Don't forget to SAVE after you add URIs.
+Moreover, you can also add Redirect URIs by going to Edit Settings as shown below. 
+#### Don't forget to SAVE after you add URIs.
 
 ![](ScreenshotsSpotify/EditSettingsDashboard.png) 
 
