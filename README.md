@@ -1,2 +1,7 @@
-# Spotify-Data-Analysis
-In this project, you can find out the data analysis of your spotify data. In addition to this, you can also find out the data on your favourite artist.
+# Spotify Data Analysis
+
+### Read this before you start:
+
+Make/login to the developer account on Spotify. https://developer.spotify.com/dashboard/login
+
+After loggin in you will be redirected to the SpotifyforDevelopers. From the Menu, click on Dashboard. 
