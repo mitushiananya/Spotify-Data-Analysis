@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 from spotipy.oauth2 import SpotifyClientCredentials
 
-client_id = '2e9153e6b1474579a5c6bb199ca19ee0'
-client_secret = '84a242b650c044cb92939d47a76ca1f6'
+client_id = 'Enter the client id that you just got'
+client_secret = 'Enter the client secret key you just got'
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)  # Object to access API
 name = "J. Cole"  # You can choose any artist of your choice
